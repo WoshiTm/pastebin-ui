@@ -1,15 +1,15 @@
 name= "pastebin-worker"
 compatibility_date = "2023-11-28"
-account_id= "37d2a5b56518873c54dcdc0e1f96203c"
+account_id= "fac7fb2a2e76a4576667d203f9c9a925"
 main = "src/index.ts"
-workers_dev = false
+workers_dev = true
 
 vars = { ENVIRONMENT = "production" }
-route = { pattern = "paste.lius.me", custom_domain = true }
+#route = { pattern = " ", custom_domain = true }
 
 kv_namespaces = [
-  { binding = "PB", id = "092a5f3423374cf98709dd7b27b30adf" },
-  { binding = "PBIMGS", id ="3854f57b71db4f14a0b3ba4cc93b6b6a" }
+  { binding = "PB", id = "727e208592ac4cdaaa962caebb820349" },
+  { binding = "PBIMGS", id ="77d2be2f691b4325a35158c4b01cc50d" }
 ]
 
 [site]
